@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Optix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Your Bots</h1>
+        <p>Total Bots: <span id="total-bots">0</span></p>
+        <button onclick="createBot()">Create Bot</button>
+        <button onclick="window.location.href='code-editor.html'">Edit Code</button>
+        <button onclick="fetchErrors()">View Errors</button>
+        <div id="bots-list"></div>
+        <div id="error-logs"></div>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

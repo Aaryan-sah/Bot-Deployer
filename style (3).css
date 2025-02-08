@@ -1,0 +1,4 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+body { background: #f4f4f4; text-align: center; }
+.container { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(to right, #007bff, #00c6ff); color: white; }
+.auth-container, .dashboard, .editor-container { width: 80%; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 50px; }
